@@ -1,0 +1,20 @@
+<% for war in @wars %>
+  <div class="<%="war-#{war.id}"%>">
+    <h1><%= war.name %></h1>
+
+    <table>
+      <thead>
+        <th>Battle</th>
+        <th>Participants</th>
+      </thead>
+      <tbody>
+      <% for battle in war.battles %>
+        <tr class="<%="battle-#{battle.id}"%>">
+          <td><%= battle.name %></td>
+          <td class='participants'><%= battle.participants.map(&:name).to_sentence %></td>
+        </tr>
+      <% end %>
+      </tbody>
+    </table>
+  </div>
+<% end %>
