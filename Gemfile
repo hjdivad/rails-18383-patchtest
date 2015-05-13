@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', github: 'hjdivad/rails', branch: '4-1-stable'
+gem 'rails', github: 'hjdivad/rails', branch: 'patch-4.1'
 
 gem 'rails-perftest'
 gem 'ruby-prof'

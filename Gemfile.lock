@@ -1,7 +1,7 @@
 GIT
   remote: git://github.com/hjdivad/rails.git
-  revision: d8a6555e319839ceaa1fa62cf4a1110a9eace3ee
-  branch: 4-1-stable
+  revision: 9a5b7e1eb03e902a329a8facb0282401daaf34a8
+  branch: patch-4.1
   specs:
     actionmailer (4.1.10)
       actionpack (= 4.1.10)

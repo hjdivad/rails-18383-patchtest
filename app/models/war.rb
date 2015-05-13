@@ -8,7 +8,7 @@ class War < ActiveRecord::Base
         includes(battles: :participants).
         order(name: :asc)
 
-    load_participants! wars
+    # load_participants! wars
   end
 
   def self.load_participants!(wars)
